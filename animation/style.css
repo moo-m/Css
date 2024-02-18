@@ -30,6 +30,13 @@ background-color: #fff;
     &.after{
         &span::selection{
             color:red;
+            &.f:visited{
+                background-color: tomato;
+
+            }
+            &.f:link{
+                background-color: paleturquoise;
+            }
         }
 
         
